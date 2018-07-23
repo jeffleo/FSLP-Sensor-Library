@@ -1,0 +1,32 @@
+#######################################
+# Syntax Coloring Map For Test
+###############################
+
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+
+FSLP KEYWORD1
+
+
+#######################################
+# Methods and Functions and Instances  (KEYWORD2)
+############
+
+GetPosition	KEYWORD2
+GetPressure	KEYWORD2
+GetData	KEYWORD2
+sl	KEYWORD2
+dl2	KEYWORD2
+dl1	KEYWORD2
+bRes	KEYWORD2
+PressureGain	KEYWORD2
+
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+
