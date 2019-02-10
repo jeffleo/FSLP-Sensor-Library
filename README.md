@@ -1,5 +1,10 @@
 # FSLP-Sensor-Library
-Arduino Library for abstracting position and force sampling from a force-sensing linear potentiometer with customizable low pass filter for sensor pressure and position and gain for pressure
+Arduino Library for abstracting position and force sampling from a force-sensing linear potentiometer with customizable low pass filter for sensor pressure and position and gain for pressure.
+
+Library comes with an example Arduino sketch that uses the serial plotter to view sensor response.
+
+# Setup
+To use library, put FSLP folder in your arduino Libraries folder. Alternatively, use the Arduino IDE: navigate to Sketch > Include Library > Add .ZIP Library. Restart IDE.
 
 Initialize a FSLP sensor class for each sensor as: 
 ~~~~
@@ -28,11 +33,3 @@ fslp.GetData(fslpSensor);         // stores filtered pressure in fslpSensor[0] a
 
 ![alt text](img/schematics.png "credit: pololu")
 ![alt text](img/sensorpins.jpg)
-
-
-
-
-
-
-
-
